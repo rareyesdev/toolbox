@@ -6,6 +6,9 @@
   "homepage": "",
   "license": "UNLICENSED",
   "main": ".prettierrc.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"No tests for now\""
   }
