@@ -19,13 +19,9 @@ jobs:
           git remote set-url origin https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
 
       - name: Checkout and pull branch
         run: git checkout "${GITHUB_REF:11}" && git pull
-
-      # - name: Install Packages
-      #   run: yarn install
 
       - name: Authenticate with NPM registry
         run: |
