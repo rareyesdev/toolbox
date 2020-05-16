@@ -1,0 +1,13 @@
+{
+  "name": "toolbox",
+  "private": true,
+  "scripts": {
+    "cm": "node packages/commitizen-config/commit.js",
+    "cmr": "npm run cm -- --retry",
+    "test": "lerna run test"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lerna": "^3.21.0"
+  }
+}
