@@ -1,11 +1,15 @@
 # `@rareyes/prettier-config`
 
-> TODO: description
+Share the same Prettier configuration between projects.
 
 ## Usage
 
-```
+```javascript
+// .prettierrc.js in project root
 const prettierConfig = require('prettier-config');
 
-// TODO: DEMONSTRATE API
+module.exports = {
+  ...prettierConfig,
+  // add overrides here...
+};
 ```
