@@ -2,6 +2,8 @@
   "name": "toolbox",
   "private": true,
   "scripts": {
+    "precm": "git config hooks.prepare-commit-msg.disabled true",
+    "postcm": "git config hooks.prepare-commit-msg.disabled false",
     "cm": "node packages/commitizen-config/commit.js",
     "cmr": "npm run cm -- --retry",
     "test": "lerna run test"
