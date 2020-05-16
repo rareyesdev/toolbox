@@ -13,7 +13,8 @@ jobs:
         uses: actions/checkout@v2
         with:
           ref: 'master'
-        run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
+      # fetch all tags so that the right version can be inferred
+      - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
 
       - name: Configure CI git user
         run: |
