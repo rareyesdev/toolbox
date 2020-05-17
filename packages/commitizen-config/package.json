@@ -5,12 +5,19 @@
   "author": "Ramón Alejandro Reyes Fajardo <rareyesdev@gmail.com>",
   "homepage": "",
   "license": "UNLICENSED",
-  "bin": "commit.js",
-  "scripts": {
-    "test": "echo \"No tests for now\""
+  "bin": "src/commit.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rareyesdev/toolbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rareyesdev/toolbox/issues"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"No tests for now\""
   },
   "dependencies": {
     "commitizen": "^4.1.2",
