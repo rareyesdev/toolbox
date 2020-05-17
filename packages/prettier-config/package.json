@@ -1,6 +1,6 @@
 {
   "name": "@rareyes/prettier-config",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Shareable Prettier configuration",
   "author": "Ramón Alejandro Reyes Fajardo <rareyesdev@gmail.com>",
   "homepage": "https://github.com/rareyesdev/toolbox#readme",
