@@ -3,7 +3,7 @@
   "version": "0.1.4",
   "description": "Shareable Prettier configuration",
   "author": "Ramón Alejandro Reyes Fajardo <rareyesdev@gmail.com>",
-  "homepage": "",
+  "homepage": "https://github.com/rareyesdev/toolbox#readme",
   "license": "UNLICENSED",
   "main": ".prettierrc.js",
   "repository": {

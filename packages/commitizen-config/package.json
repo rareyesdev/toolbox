@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Shareable Commitizen configuration",
   "author": "Ramón Alejandro Reyes Fajardo <rareyesdev@gmail.com>",
-  "homepage": "",
+  "homepage": "https://github.com/rareyesdev/toolbox#readme",
   "license": "UNLICENSED",
   "bin": "src/commit.js",
   "repository": {
