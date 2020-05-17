@@ -4,6 +4,10 @@ Share the same Commitizen configuration between projects.
 
 ## Usage
 
+```
+npm i -D @rareyes/commitizen-config
+```
+
 This configuration is being used by this same monorepo.
 
 Check [package.json](https://github.com/rareyesdev/toolbox/blob/master/package.json) scripts (`cm` and `cmr`) and [Husky configuration](https://github.com/rareyesdev/toolbox/blob/master/.huskyrc.js).

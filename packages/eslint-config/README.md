@@ -1,11 +1,9 @@
 # `@rareyes/eslint-config`
 
-> TODO: description
+Share the same ESLint configuration between projects.
 
 ## Usage
 
 ```
-const eslintConfig = require('@rareyes/eslint-config');
-
-// TODO: DEMONSTRATE API
+npm i -D @rareyes/eslint-config
 ```
