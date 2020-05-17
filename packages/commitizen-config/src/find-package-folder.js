@@ -12,11 +12,11 @@ function findPackageFolder(name, startPath) {
   throw new Error('Not found');
 }
 
-function fileExists(filePath){
+function fileExists(filePath) {
   let flag = true;
   try {
     fs.accessSync(filePath, fs.F_OK);
-  }catch {
+  } catch {
     flag = false;
   }
   return flag;
