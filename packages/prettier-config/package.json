@@ -6,9 +6,19 @@
   "homepage": "",
   "license": "UNLICENSED",
   "main": ".prettierrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rareyesdev/toolbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rareyesdev/toolbox/issues"
+  },
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    ".prettierrc.js"
+  ],
   "scripts": {
     "test": "echo \"No tests for now\""
   }

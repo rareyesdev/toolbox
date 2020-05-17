@@ -4,12 +4,20 @@
   "scripts": {
     "precm": "git config hooks.prepare-commit-msg.disabled true",
     "postcm": "git config hooks.prepare-commit-msg.disabled false",
-    "cm": "node packages/commitizen-config/commit.js",
+    "cm": "npx @rareyes/commitizen-config",
     "cmr": "npm run cm -- --retry",
+    "lint": "lerna run lint",
     "test": "lerna run test"
   },
   "devDependencies": {
+    "@rareyes/commitizen-config": "^1.0.0",
+    "@rareyes/prettier-config": "^0.1.3",
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
     "husky": "^4.2.5",
-    "lerna": "^3.21.0"
+    "lerna": "^3.21.0",
+    "lint-staged": "^10.2.2",
+    "prettier": "^2.0.5"
   }
 }

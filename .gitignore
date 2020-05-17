@@ -1,3 +1,7 @@
 #https://git-scm.com/docs/gitignore#_pattern_format
 
+# NPM node_modules folder
 node_modules/
+
+# MacOS temporary file
+.DS_Store
