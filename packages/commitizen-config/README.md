@@ -1,6 +1,6 @@
 # `@rareyes/commitizen-config`
 
-> TODO: description
+Share the same Commitizen configuration between projects.
 
 ## Usage
 
