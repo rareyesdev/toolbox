@@ -2,6 +2,7 @@
 'use strict';
 
 const { bootstrap } = require('commitizen/dist/cli/git-cz');
+
 const { findPackageFolder } = require('./find-package-folder');
 
 bootstrap({
