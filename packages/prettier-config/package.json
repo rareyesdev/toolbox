@@ -16,9 +16,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    ".prettierrc.js"
-  ],
   "scripts": {
     "test": "echo \"No tests for now\""
   }
