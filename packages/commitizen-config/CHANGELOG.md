@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/rareyesdev/toolbox/compare/@rareyes/commitizen-config@0.1.4...@rareyes/commitizen-config@1.0.0) (2020-05-17)
+
+
+### Code Refactoring
+
+* **commitizen-config:** change project structure ([af6385e](https://github.com/rareyesdev/toolbox/commit/af6385e4802098a1a28a472e4c8663d49005c816))
+
+
+### BREAKING CHANGES
+
+* **commitizen-config:** Consumers will have to update so that the configuration is read from .bin (this is
+WIP)
+
+
+
+
+
 ## [0.1.4](https://github.com/rareyesdev/toolbox/compare/@rareyes/commitizen-config@0.1.3...@rareyes/commitizen-config@0.1.4) (2020-05-17)
 
 **Note:** Version bump only for package @rareyes/commitizen-config
