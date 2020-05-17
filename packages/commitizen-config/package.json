@@ -1,6 +1,6 @@
 {
   "name": "@rareyes/commitizen-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable Commitizen configuration",
   "author": "Ramón Alejandro Reyes Fajardo <rareyesdev@gmail.com>",
   "homepage": "",
