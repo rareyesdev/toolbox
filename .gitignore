@@ -5,3 +5,6 @@ node_modules/
 
 # MacOS temporary file
 .DS_Store
+
+# Compiled files
+dist/
