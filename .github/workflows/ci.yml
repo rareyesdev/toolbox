@@ -46,4 +46,4 @@ jobs:
           npm whoami
 
       - name: Publish package
-        run: npm lerna publish --yes
+        run: npx lerna publish --yes
