@@ -27,7 +27,7 @@ jobs:
 
       - name: Lerna bootstrap
         run: npm run bootstrap
-          
+
       - name: Link @rareyes/eslint-config at root
         run: |
           cd packages/eslint-config
@@ -45,5 +45,5 @@ jobs:
           echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" >> .npmrc
           npm whoami
 
-      # - name: Publish package
-      #   run: npm lerna publish --yes
+      - name: Publish package
+        run: npm lerna publish --yes
