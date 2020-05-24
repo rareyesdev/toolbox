@@ -34,4 +34,4 @@ jobs:
 
       - name: Publish package
         run: |
-          npx lerna publish --yes'
+          npx lerna publish --yes
