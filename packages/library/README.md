@@ -1,6 +1,6 @@
 # `@rareyes/library`
 
-> TODO: description
+Share common used functionality between projects.
 
 ## Usage
 

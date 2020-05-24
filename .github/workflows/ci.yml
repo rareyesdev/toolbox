@@ -31,6 +31,9 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      - name: Build
+        run: npm run build
+
       - name: Authenticate with NPM registry
         run: |
           echo "@rareyes:registry=http://registry.npmjs.org/" > .npmrc
