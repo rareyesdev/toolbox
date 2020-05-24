@@ -15,8 +15,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "scripts": {
-    "test": "echo \"No tests for now\""
   }
 }
