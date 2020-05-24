@@ -26,3 +26,6 @@ module.exports = {
   // add overrides here...
 };
 ```
+
+## Notes
+`@rareyes/eslint-config` uses `@rareyes/prettier-config` under the hood. You don't need to install it.
