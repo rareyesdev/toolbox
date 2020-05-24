@@ -1,3 +1,1 @@
-module.exports = {
-  extends: ['@rareyes'],
-};
+module.exports = require('./packages/eslint-config');
