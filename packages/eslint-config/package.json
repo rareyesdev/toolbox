@@ -1,6 +1,6 @@
 {
   "name": "@rareyes/eslint-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Shareable ESLint configuration",
   "author": "Ramón Alejandro Reyes Fajardo <rareyesdev@gmail.com>",
   "homepage": "https://github.com/rareyesdev/toolbox#readme",
@@ -19,7 +19,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@rareyes/prettier-config": ">=0.1.6",
+    "@rareyes/prettier-config": "^1.0.0",
     "@typescript-eslint/parser": "^3.0.0",
     "eslint-config-prettier": "^6.11.0",
     "prettier": "^2.0.5",
