@@ -3,7 +3,7 @@ const path = require('path');
 
 function findPackageFolder(name, startPath) {
   let currentPath = startPath;
-  while (true) {
+  for (;;) {
     const testPath = path.join(currentPath, 'node_modules', name);
     if (fileExists(testPath)) return testPath;
     if (currentPath === '/') break;
