@@ -28,13 +28,6 @@ jobs:
       - name: Lerna bootstrap
         run: npm run bootstrap
 
-      - name: Link @rareyes/eslint-config at root
-        run: |
-          cd packages/eslint-config
-          sudo npm link
-          cd ../../
-          sudo npm link @rareyes/eslint-config
-
       - name: Lint
         run: npm run lint
 
