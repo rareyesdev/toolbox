@@ -1,0 +1,34 @@
+{
+  "name": "@rareyes/library",
+  "version": "1.0.0",
+  "description": "Shareable code",
+  "author": "Ramón Alejandro Reyes Fajardo <rareyesdev@gmail.com>",
+  "homepage": "https://github.com/rareyesdev/toolbox#readme",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rareyesdev/toolbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rareyesdev/toolbox/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/commonjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run build:esm && npm run build:commonjs",
+    "build:esm": "tsc --module es6 --outDir dist/esm",
+    "build:commonjs": "tsc --module commonjs --outDir dist/commonjs",
+    "build:test-config": "tsc --showConfig",
+    "build:clean": "",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  }
+}
