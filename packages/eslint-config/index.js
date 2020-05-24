@@ -55,7 +55,10 @@ module.exports = {
 
     // Allow hoisting semantic
     // Allow variables such as GQL Queries to be defined bellow the React component that uses them
-    '@typescript-eslint/no-use-before-define': ['error', { functions: false, classes: true, variables: false }],
+    '@typescript-eslint/no-use-before-define': [
+      'error',
+      { functions: false, classes: true, variables: false },
+    ],
 
     // Consistent way of defining a React Function Component
     '@typescript-eslint/ban-types': [
@@ -93,4 +96,13 @@ module.exports = {
     // waiting for release https://github.com/mysticatea/eslint-plugin-eslint-comments/releases
     // 'eslint-comments/require-description': 'error',
   },
+  overrides: [
+    {
+      // JS rules
+      files: ['*.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+  ],
 };
