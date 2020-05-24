@@ -22,14 +22,16 @@
   ],
   "scripts": {
     "start": "tsc --watch",
-    "build": "npm run build:esm && npm run build:commonjs",
+    "prebuild": "npm run build:clean",
+    "build": "npm run build:esm & npm run build:commonjs",
     "build:esm": "tsc --module es6 --outDir dist/esm",
     "build:commonjs": "tsc --module commonjs --outDir dist/commonjs",
     "build:test-config": "tsc --showConfig",
-    "build:clean": "",
+    "build:clean": "trash dist",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "devDependencies": {
+    "trash-cli": "^3.0.0",
     "typescript": "^3.9.3"
   }
 }
