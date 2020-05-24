@@ -21,6 +21,7 @@
     "dist"
   ],
   "scripts": {
+    "start": "tsc --watch",
     "build": "npm run build:esm && npm run build:commonjs",
     "build:esm": "tsc --module es6 --outDir dist/esm",
     "build:commonjs": "tsc --module commonjs --outDir dist/commonjs",
