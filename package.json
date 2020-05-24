@@ -6,7 +6,7 @@
     "postcm": "git config hooks.prepare-commit-msg.disabled false",
     "cm": "npx @rareyes/commitizen-config",
     "cmr": "npm run cm -- --retry",
-    "bootstrap": "lerna bootstrap --hoist",
+    "bootstrap": "npx lerna bootstrap --hoist",
     "lint": "eslint .",
     "build": "lerna run build"
   },
