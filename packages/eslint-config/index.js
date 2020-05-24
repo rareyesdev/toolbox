@@ -1,3 +1,5 @@
+const prettierConfig = require('@rareyes/prettier-config');
+
 module.exports = {
   parser: '@typescript-eslint/parser', // Specifies the ESLint parser
   parserOptions: {
@@ -35,13 +37,7 @@ module.exports = {
     /* prettier */
 
     // Prettier config overrides
-    'prettier/prettier': [
-      'error',
-      {
-        printWidth: 120,
-        singleQuote: true,
-      },
-    ],
+    'prettier/prettier': ['error', prettierConfig],
 
     /* react */
 

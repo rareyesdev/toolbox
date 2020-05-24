@@ -13,3 +13,7 @@ Install config
 ```
 npm i -D @rareyes/eslint-config
 ```
+
+## Notes
+
+`@rareyes/eslint-config` uses `@rareyes/prettier-config` under the hood. You don't need to install it.
