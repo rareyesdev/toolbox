@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/rareyesdev/toolbox/compare/@rareyes/eslint-config@2.0.0...@rareyes/eslint-config@3.0.0) (2020-05-24)
+
+
+### Features
+
+* **eslint-config:** set "@rareyes/prettier-config": ">=1.0.0" ([5574540](https://github.com/rareyesdev/toolbox/commit/5574540752ab716e02b75c1f6300541ceb7e437f))
+
+
+### BREAKING CHANGES
+
+* **eslint-config:** Package will depend on the latest version of @rareyes/prettier-config
+
+
+
+
+
 # [2.0.0](https://github.com/rareyesdev/toolbox/compare/@rareyes/eslint-config@1.0.0...@rareyes/eslint-config@2.0.0) (2020-05-24)
 
 
