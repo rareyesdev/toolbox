@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/rareyesdev/toolbox/compare/@rareyes/library@1.0.0...@rareyes/library@2.0.0) (2020-05-24)
+
+
+### Bug Fixes
+
+* **library:** fix build for library (it was not publishing the dist folder) ([8ccf6f2](https://github.com/rareyesdev/toolbox/commit/8ccf6f26fb62b27cca900c944603b16592819a62))
+
+
+### BREAKING CHANGES
+
+* **library:** dist folder was not published
+
+
+
+
+
 # 1.0.0 (2020-05-24)
 
 
