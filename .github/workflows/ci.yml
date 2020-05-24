@@ -31,9 +31,9 @@ jobs:
       - name: Link @rareyes/eslint-config at root
         run: |
           cd packages/eslint-config
-          npm link
+          sudo npm link
           cd ../../
-          npm link @rareyes/eslint-config
+          sudo npm link @rareyes/eslint-config
 
       - name: Lint
         run: npm run lint
