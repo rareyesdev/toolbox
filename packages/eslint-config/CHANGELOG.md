@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0](https://github.com/rareyesdev/toolbox/compare/@rareyes/eslint-config@3.0.2...@rareyes/eslint-config@4.0.0) (2020-06-13)
+
+
+### Features
+
+* **ignore-files:** add ignorePatterns config with dist folder ([03fb7f7](https://github.com/rareyesdev/toolbox/commit/03fb7f728a7febbf1a35b0bc0ed8ab6107483b60))
+
+
+### BREAKING CHANGES
+
+* **ignore-files:** dist folders are going to be ignored from now on
+
+
+
+
+
 ## 3.0.2 (2020-05-25)
 
 **Note:** Version bump only for package @rareyes/eslint-config
