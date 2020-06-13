@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.1](https://github.com/rareyesdev/toolbox/compare/@rareyes/eslint-config@4.0.0...@rareyes/eslint-config@4.0.1) (2020-06-13)
+
+**Note:** Version bump only for package @rareyes/eslint-config
+
+
+
+
+
 # [4.0.0](https://github.com/rareyesdev/toolbox/compare/@rareyes/eslint-config@3.0.2...@rareyes/eslint-config@4.0.0) (2020-06-13)
 
 

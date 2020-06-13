@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.1.0 (2020-06-13)
+
+
+### Features
+
+* **prettier-config:** add trailingComma rule ([d2c97df](https://github.com/rareyesdev/toolbox/commit/d2c97df7c122a2afc685f1a0edca863ca364480b))
+
+
+
+
+
 ## 1.0.1 (2020-05-25)
 
 **Note:** Version bump only for package @rareyes/prettier-config
