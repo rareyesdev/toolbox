@@ -5,7 +5,7 @@
   "author": "Ramón Alejandro Reyes Fajardo <rareyesdev@gmail.com>",
   "homepage": "https://github.com/rareyesdev/toolbox#readme",
   "license": "UNLICENSED",
-  "main": ".prettierrc.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rareyesdev/toolbox.git"
