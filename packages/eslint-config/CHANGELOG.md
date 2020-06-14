@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/rareyesdev/toolbox/compare/@rareyes/eslint-config@4.0.1...@rareyes/eslint-config@4.1.0) (2020-06-14)
+
+
+### Features
+
+* **remove-eslint-rule:** remove import/no-default-export ([45f9a6b](https://github.com/rareyesdev/toolbox/commit/45f9a6b9f886e23816309bfc612606276844743d))
+
+
+
+
+
 ## [4.0.1](https://github.com/rareyesdev/toolbox/compare/@rareyes/eslint-config@4.0.0...@rareyes/eslint-config@4.0.1) (2020-06-13)
 
 **Note:** Version bump only for package @rareyes/eslint-config
