@@ -77,7 +77,8 @@ module.exports = {
     /* import */
 
     // Prohibit default exports
-    'import/no-default-export': 'error',
+    // This would be desired but many libraries/tools have conventions that depend on default exports (Redux, Storybook)
+    // 'import/no-default-export': 'error',
 
     // Enforce a convention of not using namespace (a.k.a. "wildcard" *) imports
     'import/no-namespace': 'error',
