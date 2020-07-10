@@ -35,6 +35,11 @@ module.exports = {
   rules: {
     // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
 
+    /* eslint -- native rules */
+
+    // Has conflicts with TS declarations https://github.com/typescript-eslint/typescript-eslint/issues/342
+    'no-undef': 'off',
+
     /* prettier */
 
     // Prettier config overrides
