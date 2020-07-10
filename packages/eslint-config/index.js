@@ -94,9 +94,8 @@ module.exports = {
 
     /* eslint-comments */
 
-    // This rule warns directive comments without description.
-    // waiting for release https://github.com/mysticatea/eslint-plugin-eslint-comments/releases
-    // 'eslint-comments/require-description': 'error',
+    // Prevents eslint disable directive without description.
+    'eslint-comments/require-description': 'error',
   },
   overrides: [
     {
