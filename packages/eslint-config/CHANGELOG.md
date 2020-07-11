@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/rareyesdev/toolbox/compare/@rareyes/eslint-config@4.1.0...@rareyes/eslint-config@5.0.0) (2020-07-11)
+
+
+### Features
+
+* **add-eslint-rule:** 'no-undef': 'off' ([22f0f10](https://github.com/rareyesdev/toolbox/commit/22f0f10283905d4086f0685d9e7d2db856a18696))
+* **add-eslint-rule:** eslint-comments/require-description ([06d7a49](https://github.com/rareyesdev/toolbox/commit/06d7a499e5821b7a89eb0853e1d8d31eaa16468a))
+
+
+### BREAKING CHANGES
+
+* **add-eslint-rule:** added a new rule that might cause a linter error
+
+
+
+
+
 # [4.1.0](https://github.com/rareyesdev/toolbox/compare/@rareyes/eslint-config@4.0.1...@rareyes/eslint-config@4.1.0) (2020-06-14)
 
 
