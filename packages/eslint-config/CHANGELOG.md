@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://github.com/rareyesdev/toolbox/compare/@rareyes/eslint-config@5.0.1...@rareyes/eslint-config@6.0.0) (2020-09-17)
+
+
+### Features
+
+* **multiple-changes:** updated multiple dependencies and changed some rules ([21d8fbc](https://github.com/rareyesdev/toolbox/commit/21d8fbc256cdd28d708650f82496e9b049aaeab6))
+
+
+### BREAKING CHANGES
+
+* **multiple-changes:** At least one dependency was updated to a major version
+
+
+
+
+
 ## 5.0.1 (2020-08-21)
 
 **Note:** Version bump only for package @rareyes/eslint-config
