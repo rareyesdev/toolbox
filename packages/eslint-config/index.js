@@ -18,11 +18,10 @@ module.exports = {
     browser: true,
     node: true,
   },
-  plugins: ['import', 'eslint-comments'],
+  plugins: ['react-hooks', 'import', 'eslint-comments'],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
@@ -49,9 +48,14 @@ module.exports = {
 
     // Disable prop-types since we are using Typescript
     'react/prop-types': 'off',
+    'react/no-unescaped-entities': 'off',
 
     // Enforce props alphabetical sorting
     'react/jsx-sort-props': ['error', { callbacksLast: true }],
+
+    /* react-hooks */
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
 
     /* @typescript-eslint */
 
@@ -81,15 +85,16 @@ module.exports = {
 
     /* import */
 
-    // Prohibit default exports
-    // This would be desired but many libraries/tools have conventions that depend on default exports (Redux, Storybook)
-    // 'import/no-default-export': 'error',
+    // Warn on default exports.
+    // Default exports should be avoided most of the time because they make refactors harder.
+    // A few exceptions are libraries/tools having conventions that depend on default exports (Redux, Storybook).
+    'import/no-default-export': 'warn',
 
     // Enforce a convention of not using namespace (a.k.a. "wildcard" *) imports
     'import/no-namespace': 'error',
 
     // Enforce a convention in the order of require() / import statements
-    'import/order': 'error',
+    'import/order': ['error', { 'newlines-between': 'always' }],
 
     // Reports when named exports are not grouped together in a single export declaration
     'import/group-exports': 'error',
@@ -108,6 +113,7 @@ module.exports = {
       files: ['*.js'],
       rules: {
         '@typescript-eslint/no-var-requires': 'off',
+        'react-hooks/rules-of-hooks': 'off',
       },
     },
   ],
