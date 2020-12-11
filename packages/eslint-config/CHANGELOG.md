@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.0.0](https://github.com/rareyesdev/toolbox/compare/@rareyes/eslint-config@6.0.0...@rareyes/eslint-config@7.0.0) (2020-12-11)
+
+
+### Features
+
+* **@typescript-eslint/ban-types:** enable extendDefaults ([021e786](https://github.com/rareyesdev/toolbox/commit/021e786a80c71d448931cf727d4409d8c392bcf2))
+
+
+### BREAKING CHANGES
+
+* **@typescript-eslint/ban-types:** Enabling extendDefaults will enforce defaults that were previously disabled
+
+
+
+
+
 # [6.0.0](https://github.com/rareyesdev/toolbox/compare/@rareyes/eslint-config@5.0.1...@rareyes/eslint-config@6.0.0) (2020-09-17)
 
 

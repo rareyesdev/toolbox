@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.1.0 (2020-12-11)
+
+
+### Features
+
+* minor dependency bump ([4913930](https://github.com/rareyesdev/toolbox/commit/4913930079cbb2e1d60d4d194cdbef332bae353c))
+
+
+
+
+
 ## 1.0.5 (2020-05-25)
 
 **Note:** Version bump only for package @rareyes/commitizen-config

@@ -1,6 +1,6 @@
 {
   "name": "@rareyes/eslint-config",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "Shareable ESLint configuration",
   "author": "Ramón Alejandro Reyes Fajardo <rareyesdev@gmail.com>",
   "homepage": "https://github.com/rareyesdev/toolbox#readme",

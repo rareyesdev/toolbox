@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.2.0 (2020-12-11)
+
+
+### Features
+
+* add two new utility functions (add-scroll-event-listener and get-root-scroll-element) ([052bcc1](https://github.com/rareyesdev/toolbox/commit/052bcc150240bf648e7ae92c5258645f8b9b0a7f))
+
+
+
+
+
 # 2.1.0 (2020-08-21)
 
 
