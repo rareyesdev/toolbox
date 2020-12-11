@@ -80,6 +80,7 @@ module.exports = {
             fixWith: 'React.FC',
           },
         },
+        extendDefaults: true,
       },
     ],
 
