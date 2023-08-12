@@ -1,5 +1,5 @@
 /**
- * This is a type guard that will attempt to restrict an optional type to its non-optional primitive.
+ * This is a type guard that will remove `null` or `undefined` from a given value.
  *
  * The assertion will throw an error in non-production environments. This is helpful to avoid silent failures of
  * TypeScript non-null assertion operator (`!`) when developing.
